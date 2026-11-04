@@ -69,6 +69,15 @@ const sampleEvents = [
     price: 200,
     capacity: 100
   },
+    {
+    title: "fosca",
+    description:
+      "An event like never, Don't miss out, good vibz and good memoris",
+    venue: "Nairobi, Kenya",
+    event_date: "2026-12-11T19:00",
+    price: 80000,
+    capacity: 400
+  },
 ];
 
 const findEventByTitle = db.prepare(
